@@ -8,7 +8,7 @@
 
 `git clone https://github.com/Disooloo/app_macdonals`<br>
 `cd app_macdonals` <br>
-`npm install` или `yarn` <br>
+`npm install` or `yarn` <br>
 `expo start` full <br>
 `yarn android` or `npm android` run android <br>
 `yarn ios` or `npm ios` run ios <br>
