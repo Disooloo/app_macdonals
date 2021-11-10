@@ -1,21 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Categories from './src/components/Categories';
+import Header from './src/components/Header';
+import Popular from './src/components/Popular';
+
+import { COLORS} from './constants';
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View style={{	padding: 24, paddingTop: 55, paddingBottom: 75, backgroundColor: COLORS.black,}}>
+     
+      <Header />  
+      <Categories />
+      <Popular />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
